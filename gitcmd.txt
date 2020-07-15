@@ -1,0 +1,20 @@
+git init
+git status
+git add
+git commit
+
+git log
+git show
+
+
+working directory // thu muc lam viec khi check git status
+stagin area // khi commit cac file thay doi duoc add vao day git add
+git repository git commit
+
+git checkout
+git reset
+
+
+git checkout -b <branch> (branching)
+git checkout <branch>
+git merge
