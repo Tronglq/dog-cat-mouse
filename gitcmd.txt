@@ -36,3 +36,15 @@ git revert <commit(id commit)>
 
 .gitignore // bo qua mot so file khong muon commit, module chalk(vien phan)
 tao .gitignore trong vs code sau do them thu muc minh khong muon commit
+
+
+git hub.
+// git remote add arigin <address account github>
+// git remote
+//git push -u arigin master
+
+git config --global credential.helper store
+
+git config --global credential.helper "cache --timeout=18000"
+
+google "gnom-keyring" "git ssh"
