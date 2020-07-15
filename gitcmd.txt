@@ -23,3 +23,16 @@ git merge b
 
 
 git branch -D <branch> (delete a branch)
+
+
+git reset --soft // o trang thai stagin
+git reset --mixed // o trang thai work directory
+git reset --hard // xoa bo luon phan ta da commit
+
+stats-->work directory ---------->stagin ------------->commit
+                       (git add)            (commit)
+
+git revert <commit(id commit)>
+
+.gitignore // bo qua mot so file khong muon commit, module chalk(vien phan)
+tao .gitignore trong vs code sau do them thu muc minh khong muon commit
