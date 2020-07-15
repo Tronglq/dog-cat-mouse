@@ -17,4 +17,9 @@ git reset
 
 git checkout -b <branch> (branching)
 git checkout <branch>
-git merge
+git merge // keo thay doi tu branch nay sang branch no: A<-----b
+git checkout A
+git merge b
+
+
+git branch -D <branch> (delete a branch)
